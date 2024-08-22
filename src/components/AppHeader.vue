@@ -1,6 +1,6 @@
 <template>
   <header id="nav" class="sticky top-0 z-30 w-full bg-[#F1F2F6]">
-    <nav class="flex items-center justify-between py-[19px] app-container-main">
+    <nav class="flex items-center justify-between xl:py-[19px] app-container-main">
       <router-link to="">
         <img src="/Bixel-Logo.svg" alt="" />
       </router-link>
@@ -49,34 +49,33 @@
         </button>
       </div>
 
-      <!-- Mobile Menu -->
+      <!-- Mobile Menu  mobile-->
       <div
         id="mobile-nav"
         :class="{ 'hidden relative': !mobileMenuOpen }"
-        class="lg:hidden bg-appWhite text-[#515050] absolute top-20 right-4 mobile py-20 space-y-[10px]"
+        class="lg:hidden  text-[#515050] bg-appWhite w-[238px] h-[250px] rounded-xl absolute top-20 right-4 pt-5"
       >
         <ul
-          class="flex flex-col space-x-[20px] text-appText font-inter font-medium text-base"
+          class="flex flex-col text-base font-semibold text-appText font-inter"
         >
-          <li
-            class=""
-          >
+          <li class="h-[49px] items-center px-[16px] py-[12px]">
             <a href="#values" @click.prevent="scrollToSection('values')"
               >Values</a
             >
           </li>
-          <li
-            class=""
-          >
+          <li class="px-[16px] py-[12px]">
             <a href="#services" @click.prevent="scrollToSection('services')"
               >Core services</a
             >
           </li>
-          <li
-            class=""
-          >
+          <li class="px-[16px] py-[12px]">
             <a href="#choose-us" @click.prevent="scrollToSection('choose-us')"
               >Why Choose us</a
+            >
+          </li>
+          <li class="px-[16px] py-[12px]">
+            <a href="#contact-us" @click.prevent="scrollToSection('contact-us')"
+              >Contact us</a
             >
           </li>
         </ul>
@@ -172,8 +171,8 @@ function closeMobileMenu() {
 
 <style scoped>
 .mobile {
-  max-width: 50%;
-  width: 100%;
+  /* max-width: 50%; */
+  /* width: 100%; */
   height: auto;
   padding: 20px 20px;
   border-radius: 10px;

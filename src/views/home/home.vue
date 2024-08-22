@@ -1,5 +1,6 @@
 <template>
   <AppHeader />
+  <!-- flex flex-col xl:items-center lg:flex-row xl:pt-[130px] xl:space-x-[50px] justify-between -->
   <main>
     <div class="bg-appblue h-[827px] relative">
       <img
@@ -9,9 +10,9 @@
       />
       <div class="app-container">
         <div
-          class="absolute flex flex-col xl:items-center lg:flex-row xl:pt-[130px] xl:space-x-[50px]"
+          class="absolute flex flex-col xl:items-center xl:pt-[60px] pt-[30px] xl:space-x-[24px] justify-between lg:flex-row xl:space-y-0 space-y-[45px]"
         >
-          <section class="flex flex-col space-y-5 xl:w-0 w-[298px]">
+          <section class="flex flex-col space-y-5 w-full lg:max-w-[598px]">
             <p
               class="font-normal w-[336px] text-[32px] md:text-xl lg:text-2xl xl:text-[53px] xl:leading-[77px] text-appWhite"
             >
@@ -26,7 +27,7 @@
             </p>
 
             <button
-              class="bg-appWhite rounded-xl font-bold text-appText text-xl w-[204px] py-3 font-inter"
+              class="bg-appWhite rounded-xl font-bold text-appText text-xl xl:w-[204px] w-[127.5px] py-3 font-inter"
             >
               Explore
             </button>
@@ -101,16 +102,16 @@
 
     <section
       id="services"
-      class="xl:h-[858px] bg-appGray pt-[112px] pb-[114px]"
+      class="xl:h-[858px] bg-appGray  xl:py-[112px] pt-[86px] pb-[114px]"
     >
-      <div class="space-y-[119px] app-container">
+      <div class="xl:space-y-[119px] space-y-[82px] app-container">
         <div
           class="border-x-4 border-appOrange bg-appGray w-[200px] text-center py-[10px] font-medium text-base font-inter text-appBlack mx-auto"
         >
           CORE SERVICES
         </div>
 
-        <div class="flex flex-col items-center justify-around xl:flex-row">
+        <div class="flex flex-col xl:space-y-0 space-y-[45px] items-center justify-around xl:flex-row">
           <div
             v-for="(item, index) in items"
             :key="index"
@@ -122,7 +123,7 @@
               <img
                 :src="item.image"
                 :alt="`Image ${index + 1}`"
-                class="transition-transform duration-500 transform"
+                class="transition-shadow duration-1000 transform"
                 :class="
                   hovered[index]
                     ? '-translate-y-4  h-[502px]'
@@ -130,6 +131,7 @@
                 "
               />
             </div>
+            
             <div
               class="absolute inset-x-0 bottom-0 p-4 text-center transition-transform duration-500 transform text-appBlack bg-appWhite"
               :class="hovered[index] ? 'translate-y-0' : 'translate-y-full'"
@@ -204,21 +206,21 @@
       </div>
     </section>
 
-    <section class="bg-appGray xl:h-[431px] h-[502px] relative">
+    <section id="contact-us" class="bg-appGray xl:h-[431px] h-[502px] relative">
       <div class="flex justify-center">
         <div
-          class="xl:app-container bg-appPurple-100 xl:h-[431px] h-[662px] xl:w-[1240px] w-[331px] xl:rounded-xl z-20 xl:-bottom-1/3 -bottom-1/2 absolute"
+          class="xl:app-container bg-appPurple-100 xl:h-[431px] h-[662px] xl:w-[1240px] w-[331px] xl:rounded-xl z-20 xl:-bottom-1/3 -bottom-[197px] absolute"
         >
           <img
             src="/Whirl-2.png"
             alt=""
-            class="absolute hidden object-cover bg-no-repeat"
+            class="absolute object-cover bg-no-repeat bottom-2 xl:bottom-0"
           />
 
           <div
             class="absolute xl:px-[111px] px-9 xl:py-[76px] py-[47px] flex xl:space-x-[476px] xl:space-y-0 space-y-[100px] items-center flex-col xl:flex-row"
           >
-            <div class="mx-auto space-y-[30px]">
+            <div class="mx-auto space-y-[24px]">
               <div
                 class="border-x-4 border-appOrange bg-appGray w-[200px] text-center py-[10px] font-medium text-base font-inter text-appBlack mx-auto"
               >
