@@ -53,7 +53,7 @@
       <div
         id="mobile-nav"
         :class="{ 'hidden relative': !mobileMenuOpen }"
-        class="lg:hidden  text-[#515050] bg-appWhite w-[238px] h-[250px] rounded-xl absolute top-20 right-4 pt-5"
+        class="xl:hidden text-[#515050] bg-appWhite w-[238px] h-[250px] rounded-xl absolute top-20 right-4 pt-5"
       >
         <ul
           class="flex flex-col text-base font-semibold text-appText font-inter"
@@ -82,7 +82,7 @@
       </div>
 
       <!-- Desktop -->
-      <div class="hidden xl:flex flex-row items-center space-x-[86.5px]">
+      <div class="hidden lg:flex flex-row items-center space-x-[86.5px]">
         <div class="w-[317px]">
           <ul
             class="flex space-x-[20px] text-appText font-inter font-medium text-base"

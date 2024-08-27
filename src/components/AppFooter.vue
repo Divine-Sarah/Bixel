@@ -1,7 +1,7 @@
 <template>
-  <main class="bg-appblue xl:h-[661px] h-[1137px]">
+  <main class="bg-appblue xl:h-[661px] lg:h-[660px] h-[1137px]">
     <div class="app-container">
-      <div class="pt-[261px] flex justify-between xl:flex-row flex-col xl:space-y-0 space-y-[44px]">
+      <div class="pt-[261px] flex justify-between xl:flex-row lg:flex-row md:flex-col flex-col xl:space-y-0 space-y-[44px]">
         <img src="/logo.svg" alt="" class="w-[130px]  xl:mx-0 mx-auto"/>
         <div
           class="space-y-[20px] text-appWhite font-inter font-medium text-base xl:w-[120px] xl:mx-0 mx-auto text-center xl:text-start"
@@ -20,7 +20,7 @@
           </div>
         </div>
 
-        <div class="xl:w-[731px] flex xl:flex-row flex-col xl:space-x-[50px] xl:space-y-0 space-y-[44px] text-appWhite font-inter xl:mx-0 mx-auto text-center">
+        <div class="xl:w-[731px] flex xl:flex-row lg:flex-row  flex-col xl:space-x-[50px] lg:space-x-[25px] xl:space-y-0 lg:space-y-0 space-y-[44px] text-appWhite font-inter xl:mx-0 mx-auto text-center">
           
           <div class="flex flex-col space-y-[27px] xl:w-[139px]">
             <span class="text-xl font-bold">Call us</span>

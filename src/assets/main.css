@@ -15,5 +15,5 @@
 
 
 .app-container-main {
-    @apply mx-auto max-w-[75rem]  px-2 2xl:px-0;
+    @apply mx-auto max-w-[75rem]  px-5 2xl:px-0;
 }
