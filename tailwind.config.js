@@ -18,7 +18,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        inter: "Inter"
+        inter: "Inter",
+        anton: "Anton"
       }
     },
   },

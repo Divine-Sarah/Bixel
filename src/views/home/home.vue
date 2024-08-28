@@ -12,16 +12,16 @@
         <div
           class="flex flex-col items-center xl:pt-[60px] pb-[66px] pt-[30px] xl:space-x-[59px] xl:justify-between lg:flex-row md:flex-row font-outfit"
         >
-          <section class="flex flex-col space-y-[15px] w-full lg:max-w-[598px]">
+          <section class="flex flex-col space-y-[15px] w-full lg:max-w-[598px] md:pb-0 pb-10">
             <p
-              class="font-normal xl:w-[292px] text-[32px] lg:text-4xl md:text-3xl xl:text-[53px] xl:leading-[77px] text-appPurple"
+              class="font-normal xl:w-[292px]  text-[32px] xl:text-balance lg:text-4xl md:text-3xl xl:text-[53px] xl:leading-[77px] text-appPurple font-anton"
             >
               Step into the Realm of Creativity
             </p>
 
             <div class="space-y-[41px]">
               <p
-                class="text-xl font-normal w-full max-w-[519px] md:leading-6 text-appPurple font-inter"
+                class="text-xl font-normal xl:w-[519px]  md:leading-6 text-pretty text-appPurple font-inter"
               >
                 Here, creativity converges with technology, and ideas evolve
                 into reality. We are a dynamic tech company specializing in
@@ -29,9 +29,12 @@
               </p>
 
               <button
-                class="bg-appWhite rounded-xl font-bold text-appText text-xl xl:w-[204px] w-[127.5px] py-3 font-inter"
+                class="flex flex-row items-center gap-[11px] py-3 text-xl font-bold bg-appWhite rounded-xl text-appBlack font-inter px-[23px]"
               >
+              <span>
                 Explore
+              </span>
+              <img src="/explore-arrow.svg" alt="">
               </button>
             </div>
           </section>
@@ -91,49 +94,6 @@
           </div>
         </div>
 
-        <!-- <div
-          class=" xl:border-l border-[#00000033] xl:space-y-0 space-y-[77.5px]"
-        >
-          <hr
-            class="lg:hidden w-[168.36px] flex mx-auto h-[1px] bg-[#00000033] border-0"
-          />
-          <div
-            class="w-[348px] items-center xl:px-[40px] space-y-[21px] font-inter text-center xl:text-justify "
-          >
-            <div class="flex items-center space-x-[27px] justify-center xl:justify-start">
-              <img src="/Group.svg" alt="" />
-              <h1 class="text-xl font-bold">Customer-Centric</h1>
-            </div>
-            <p class="text-base font-normal xl:w-[328px]">
-              Our clients are our top priority. BethPixel is dedicated to
-              building lasting partnerships, with a focus on delivering
-              solutions tailored to meet the unique needs and goals of each
-              client.
-            </p>
-          </div>
-        </div>
-
-        
-        <div
-          class=" xl:border-l border-[#00000033] xl:space-y-0 space-y-[77.5px]"
-        >
-          <hr
-            class="lg:hidden  w-[168.36px] flex mx-auto h-[1px] bg-[#00000033] border-0"
-          />
-          <div
-            class="w-[348px] items-center xl:px-[40px] space-y-[21px] font-inter text-center xl:text-justify"
-          >
-            <div class="flex items-center space-x-[27px] justify-center xl:justify-start">
-              <img src="/Arrows Triangle.svg" alt="" />
-              <h1 class="text-xl font-bold">Adaptability</h1>
-            </div>
-            <p class="text-base font-normal xl:w-[328px]">
-              In the ever-evolving tech landscape, adaptability is paramount.
-              BethPixel embraces change, ensuring that our solutions remain
-              relevant and effective in the face of technological advancements.
-            </p>
-          </div>
-        </div> -->
       </div>
     </section>
 
@@ -179,10 +139,10 @@
         </div>
 
         <!-- tablet -->
-        <div class="flex md:flex-col lg:flex-col flex-col space-y-[45px] app-container">
+        <div class="flex md:flex-col lg:flex-col flex-col space-y-[45px] md:app-container">
           <div class="relative w-full xl:hidden bg-appWhite rounded-xl ">
             <img src="/core-service-3.png" alt="" class="" />
-            <p class="p-4 text-2xl font-medium text-center font-inter">
+            <p class="p-4 text-xs font-normal leading-[18px] text-center md:font-medium md:text-2xl font-inter px-[33px]">
               With a focus on efficiency and precision, our IT project
               management experts at BethPixel oversee projects from inception to
               completion. We specialise in the seamless development of software,
@@ -193,7 +153,7 @@
 
           <div class="relative xl:hidden bg-appWhite rounded-xl">
             <img src="/core-service-2.png" alt="" class="" />
-            <p class="p-4 text-2xl font-medium text-center font-inter">
+            <p class="p-4 text-xs font-normal leading-[18px] text-center md:font-medium md:text-2xl font-inter px-[33px]">
               At BethPixel Tech Solutions Ltd, our team of skilled graphic
               designers is dedicated to giving your brand a distinctive
               identity. From compelling logos to impactful marketing materials
@@ -204,7 +164,7 @@
 
           <div class="relative xl:hidden bg-appWhite rounded-xl">
             <img src="/core-service-1.png" alt="" class="" />
-            <p class="p-4 text-2xl font-medium text-center font-inter">
+            <p class="p-4 text-xs font-normal leading-[18px] text-center md:font-medium md:text-2xl font-inter px-[33px]">
               From conceptualisation to launch and ongoing optimisation,
               BethPixel excels in product management. We guide your product
               through its entire lifecycle, providing strategic planning and
