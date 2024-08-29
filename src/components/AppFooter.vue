@@ -25,8 +25,8 @@
           <div class="flex flex-col space-y-[27px] xl:w-[139px]">
             <span class="text-xl font-bold">Call us</span>
             <div class="flex flex-col text-base font-medium">
-              <a href="tel:+2348102431109">+2348102431109</a>
-              <a href="tel:+2348101055065"> +2348101055065</a>
+              <a href="tel:+2348102431109">+2348162879258</a>
+              <a href="tel:+2348101055065">+2349167836248</a>
             </div>
           </div>
           
@@ -38,8 +38,7 @@
           <div class="w-[289px] flex flex-col space-y-[27px] ">
             <span class="text-xl font-bold">Address</span>
             <p>
-              Second floor, suit B6 at Benemma plaza, along NTA Raod, Jamb
-              office, Asaba, Delta state, Nigeria.
+              Flat 1 Amaechi Helen House, Ikeotuonye, Irete, Owerri, Imo State Nigeria
             </p>
           </div>
           
